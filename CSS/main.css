@@ -1,0 +1,78 @@
+body{
+     background: linear-gradient(35deg,#FFCCCC,#CCFFFF);
+}
+.card{
+      display: flex;
+      position: relative;
+      top: 60px;
+      height: 300px;
+      width: 500px;
+      left: 380px;
+}
+img{
+    position: relative;
+    height: 300px;
+    width: 600px;
+    justify-content: center;
+    align-self: center;
+}
+h1{
+   color: black;
+   text-align: center;
+   margin-top: 100px;
+   font-family: 'Indie Flower', cursive;
+   font-size: 80px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: baseline;
+    position: relative;
+    left: 50px;
+
+}
+#crown{
+       width:150px;
+       height: 150px;
+       transform: rotate(20deg);
+       align-self: baseline;
+
+}
+.story{
+        position: relative;
+        left: 300px;
+       display: grid;
+       grid-template-columns: 600px;
+       text-align: center;
+       width: 600px;
+       padding: 50px;
+       font-size: 20px;
+}
+.story p{
+         font-family: 'Kaushan Script', cursive;
+}
+#ready{
+       text-align: center;
+       position: relative;
+       left: 600px;
+       bottom: 50px;
+       background-color: black;
+       opacity: 0.6;
+       color: white;
+       border-radius: 40%;
+       padding: 10px;
+}
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+
+}
+
+}
